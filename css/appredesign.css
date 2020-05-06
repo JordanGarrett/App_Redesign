@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+html {
+    -webkit-box-sizing-box: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: grid;
+    padding: 0px;
+    background-color: #3478f6;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-evenly;
+    margin: -8px -8px 0px -8px;
+}
+
+.self {
+    align-self: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link {
+    font: 1.2em "Times New Roman", georgia;
+    color: #FFFFFF;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.caption {
+    display: block;
+}
+
+p {
+    font: 1.0em "Times New Roman", georgia;
+    text-align: center;
+}
+
+h1 {
+    font: bold 3em "Times New Roman", georgia;
+    color: black;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+h2 {
+    font: bold 2em "Times New Roman", georgia;
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font: bold 8em "Times New Roman", georgia;
+    text-align: center;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    font: 1em "Times New Roman", georgia;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font: 1.5em "Times New Roman", georgia;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    background-color: #3478f6;
+    margin: -8px -8px -8px -8px;
+}
